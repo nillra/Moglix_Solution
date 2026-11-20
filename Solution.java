@@ -19,8 +19,8 @@ public class Solution {
 
                 indexStack.push(currentIndex);
 
-            } else {
-
+            } 
+            else {
                 indexStack.pop();
 
                 if (indexStack.isEmpty()) {
@@ -51,7 +51,6 @@ public class Solution {
         int result = longestValidParentheses(parentheses);
 
         System.out.println("Longest valid parentheses length: " + result);
-
-        scanner.close();
+        
     }
 }
